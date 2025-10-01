@@ -1,6 +1,6 @@
 "use client";
 
-import { useFormState, useFormStatus } from "react-dom";
+import { useActionState, useFormStatus } from "react";
 import { useEffect } from "react";
 import { useToast } from "@/hooks/use-toast";
 import { createAppointment } from "@/lib/actions";
@@ -23,7 +23,7 @@ function SubmitButton() {
 
 export function ContactForm() {
   const initialState = { message: null, errors: {} };
-  const [state, dispatch] = useFormState(createAppointment, initialState);
+  const [state, dispatch] = useActionState(createAppointment, initialState);
   const { toast } = useToast();
 
   useEffect(() => {
