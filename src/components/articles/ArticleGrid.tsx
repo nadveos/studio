@@ -2,18 +2,14 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
-import { ArrowRight } from 'lucide-react';
 import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Button } from '@/components/ui/button';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import type { Article } from '@/lib/definitions';
 import type { ImagePlaceholder } from '@/lib/placeholder-images';
@@ -76,13 +72,6 @@ export function ArticleGrid({ articles, images }: ArticleGridProps) {
                   {article.content.substring(0, 120)}...
                 </CardDescription>
               </CardContent>
-              <CardFooter className="p-6 pt-0 mt-auto">
-                <Button asChild variant="link" className="p-0 h-auto text-primary">
-                  <Link href="#">
-                    Leer más <ArrowRight className="ml-2 h-4 w-4" />
-                  </Link>
-                </Button>
-              </CardFooter>
             </Card>
           );
         })}
