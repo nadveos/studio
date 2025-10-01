@@ -1,3 +1,70 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A compassionate nurse bandaging a patient's leg with care in a bright, clean room.",
+      "imageUrl": "https://images.unsplash.com/photo-1691139601099-932c01ec198b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxudXJzZSUyMHBhdGllbnR8ZW58MHx8fHwxNzU5MjM3NDI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "nurse patient"
+    },
+    {
+      "id": "article-1",
+      "description": "Close-up of a pressure cushion on a wheelchair, illustrating prevention of pressure ulcers.",
+      "imageUrl": "https://images.unsplash.com/photo-1701608395328-ab4a11399d1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3aGVlbGNoYWlyJTIwY3VzaGlvbnxlbnwwfHx8fDE3NTkzMjU5NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wheelchair cushion"
+    },
+    {
+      "id": "article-2",
+      "description": "A diagram showing venous circulation in a human leg.",
+      "imageUrl": "https://images.unsplash.com/photo-1715532176296-204c12bc643a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bGVnJTIwdmVpbnN8ZW58MHx8fHwxNzU5MzI1OTcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "leg veins"
+    },
+    {
+      "id": "article-3",
+      "description": "A person with diabetes checking their foot in a mirror for any signs of ulcers.",
+      "imageUrl": "https://images.unsplash.com/photo-1643895008250-0142388fee61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmb290JTIwaW5zcGVjdGlvbnxlbnwwfHx8fDE3NTkzMjU5NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "foot inspection"
+    },
+    {
+      "id": "article-4",
+      "description": "A colorful plate of healthy food, including salmon, broccoli, and berries, representing a nutritious meal for healing.",
+      "imageUrl": "https://images.unsplash.com/photo-1556386734-4227a180d19e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxoZWFsdGh5JTIwZm9vZHxlbnwwfHx8fDE3NTkyNjM2NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthy food"
+    },
+    {
+      "id": "article-5",
+      "description": "A person wearing a medical compression stocking on their leg.",
+      "imageUrl": "https://images.unsplash.com/photo-1671781403437-1930f47c417b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb21wcmVzc2lvbiUyMHN0b2NraW5nfGVufDB8fHx8MTc1OTMyNTk3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "compression stocking"
+    },
+    {
+      "id": "article-6",
+      "description": "A healthcare professional gently talking to an elderly patient, conveying a sense of comfort and pain management.",
+      "imageUrl": "https://images.unsplash.com/photo-1758654860028-640c63eb757f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwYXRpZW50JTIwY29tZm9ydHxlbnwwfHx8fDE3NTkzMjU5NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "patient comfort"
+    },
+    {
+      "id": "case-study-1",
+      "description": "A close-up image showing a healed ulcer on a patient's leg.",
+      "imageUrl": "https://images.unsplash.com/photo-1571796826202-870d33cda9f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxoZWFsZWQlMjB3b3VuZHxlbnwwfHx8fDE3NTkzMjU5NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "healed wound"
+    },
+    {
+      "id": "case-study-2",
+      "description": "An image showing the stages of healing for a pressure ulcer.",
+      "imageUrl": "https://images.unsplash.com/photo-1607348983291-8932fd56d4c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b3VuZCUyMGhlYWxpbmd8ZW58MHx8fHwxNzU5MzI1OTcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wound healing"
+    },
+    {
+      "id": "case-study-3",
+      "description": "A before and after image of a diabetic foot ulcer that has successfully healed.",
+      "imageUrl": "https://images.unsplash.com/photo-1685485276914-6cefc2417c05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkaWFiZXRpYyUyMHVsY2VyfGVufDB8fHx8MTc1OTMyNTk3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "diabetic ulcer"
+    },
+    {
+      "id": "case-study-4",
+      "description": "A post-surgical wound showing significant improvement after specialized care.",
+      "imageUrl": "https://images.unsplash.com/photo-1666085596628-66d4306f3728?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzdXJnaWNhbCUyMHdvdW5kfGVufDB8fHx8MTc1OTMyNTk3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "surgical wound"
+    }
+  ]
 }
