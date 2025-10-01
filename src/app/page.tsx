@@ -14,7 +14,6 @@ import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
@@ -152,13 +151,6 @@ export default function Home() {
                       {article.content.substring(0, 100)}...
                     </CardDescription>
                   </CardContent>
-                  <CardFooter className="p-6 pt-0">
-                    <Button asChild variant="link" className="p-0 h-auto">
-                      <Link href="/articles">
-                        Leer más <ArrowRight className="ml-2 h-4 w-4" />
-                      </Link>
-                    </Button>
-                  </CardFooter>
                 </Card>
               );
             })}
